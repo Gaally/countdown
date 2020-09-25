@@ -1,0 +1,407 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold-Italic.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Bold-Italic.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-ExtraBold-Italic.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-ExtraBold-Italic.woff")
+      format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-ExtraBold.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-ExtraBold.woff")
+      format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Italic.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Italic.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Medium-Italic.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Medium-Italic.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Medium.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "JetBrains Mono";
+  font-size: 0.5rem;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "JetBrains Mono";
+  font-size: 2.5rem;
+  border: 1px solid black;
+  box-shadow: 0 4px 0 rgb(5, 56, 5);
+  padding: 0.5rem 3rem;
+  background-color: #034c3c;
+  color: #f0e6ef;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-content: space-around;
+  width: 100%;
+  height: 70vh;
+  margin-top: 5rem;
+}
+
+.logo img {
+  width: 90%;
+  height: auto;
+}
+
+.buttons {
+  position: absolute;
+  top: 62%;
+  right: 10%;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+.go {
+  font-family: "JetBrains Mono";
+  border: 2px solid #1b4332;
+  width: 3rem;
+  height: 1.8rem;
+  cursor: pointer;
+  background-color: #1b4332;
+  color: #f0e6ef;
+  outline: none;
+}
+
+.stop {
+  font-family: "JetBrains Mono";
+  border: 2px solid #93032e;
+  width: 3rem;
+  height: 1.8rem;
+  cursor: pointer;
+  background-color: #93032e;
+  color: #f0e6ef;
+  outline: none;
+}
+
+.back {
+  font-family: "JetBrains Mono";
+  border: 2px solid #1b4332;
+  width: 3rem;
+  height: 1.8rem;
+  cursor: pointer;
+  background-color: #1b4332;
+  color: #f0e6ef;
+  outline: none;
+}
+
+:root {
+  --width: 100vw;
+  --segments: 0;
+  --width-segment: calc(var(--width) / var(--segments));
+  --radius: 1.5vmin;
+  --rgb: 59, 182, 235;
+  --fontColor: 255, 255, 255;
+  --animationDirection: normal;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.splitflap {
+  min-width: var(--width-segment);
+  font-size: var(--width-segment);
+  line-height: var(--width-segment);
+  text-align: center;
+  height: var(--width-segment);
+  color: rgb(var(--fontColor));
+  margin: 5px;
+  perspective: 1000px;
+  position: relative;
+  font-family: "JetBrains Mono";
+  -webkit-transform: translate3D(0, 0, 0);
+}
+
+.splitflap > div {
+}
+
+.front-top {
+  background-color: rgb(var(--rgb));
+  border-radius: var(--radius) var(--radius) 0 0;
+  height: 50%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.front-full {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-top: -50%;
+  border-radius: var(--radius) var(--radius) var(--radius) var(--radius);
+  z-index: -1;
+  background-color: black;
+  background-image: linear-gradient(rgba(var(--rgb), 0), rgb(var(--rgb)));
+  transform-origin: center;
+}
+
+.front-top:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+}
+
+.back-top {
+  position: relative;
+  height: 50%;
+  width: 100%;
+  background-color: rgb(var(--rgb));
+  margin-top: -100%;
+  overflow: hidden;
+  border-radius: var(--radius) var(--radius) 0 0;
+  z-index: 2;
+  background-color: black;
+  background-image: linear-gradient(rgb(var(--rgb)), rgba(var(--rgb), 0));
+  transform-origin: bottom;
+  transform: rotateX(-90deg);
+}
+
+.back-top:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.back-full {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(var(--rgb));
+  margin-top: -50%;
+  border-radius: var(--radius) var(--radius) var(--radius) var(--radius);
+  z-index: -3;
+}
+
+.flip1 {
+  animation: flip1 ease-in 1s;
+  animation-fill-mode: forwards;
+  animation-direction: var(--animationDirection);
+}
+
+.flip2 {
+  animation: flip2 ease-out 1s;
+  animation-fill-mode: forwards;
+  animation-direction: var(--animationDirection);
+}
+
+@keyframes flip1 {
+  0% {
+    transform: rotateX(0deg);
+    background-color: rgb(var(--rgb));
+  }
+  50% {
+    transform: rotateX(90deg);
+    background-color: black;
+  }
+  100% {
+    transform: rotateX(90deg);
+  }
+}
+
+@keyframes flip2 {
+  0% {
+    transform: rotateX(-90deg);
+  }
+  50% {
+    transform: rotateX(-90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+    background-color: rgb(var(--rgb));
+  }
+}
+
+.splitflap:nth-child(2n):after {
+  position: absolute;
+  top: 100%;
+  left: -50%;
+  text-align: center;
+  font-size: 3vmin;
+  color: black;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.splitflap:nth-child(2):after {
+  content: "days";
+}
+
+.splitflap:nth-child(4):after {
+  content: "hours";
+}
+
+.splitflap:nth-child(6):after {
+  content: "minutes";
+}
+
+.splitflap:nth-child(8):after {
+  content: "seconds";
+}
+
+.splitflap:nth-child(even) {
+  margin-left: -6px;
+}
+
+.splitflap {
+  border: 1.5px solid black;
+  border-radius: var(--radius);
+  background-color: rgb(var(--rgb));
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  margin: auto;
+  justify-content: center;
+}
+
+.minilogo {
+  flex: 1;
+}
+
+.minilogo img {
+  width: 8rem;
+  height: auto;
+}
+
+.signature {
+  flex: 2;
+}
+
+.footer-links {
+  justify-content: space-around;
+  list-style: none;
+  text-align: right;
+  margin-top: 2rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.footer-link {
+  font-family: "JetBrains Mono";
+  color: #5f5f79;
+  font-size: 0.9rem;
+  text-decoration: none;
+  line-height: 1.8rem;
+}
+
+.footer-link:hover {
+  font-weight: bold;
+}

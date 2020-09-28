@@ -5,7 +5,7 @@ let time,
   countDownDate =
     new Date("March 28, 2021 20:00:00").getTime() + 1000 * 60 * 60 * 1.5,
   reverseFlapDirection = true,
-  bgColor = "237,217,163",
+  bgColor = "205,213,216",
   fontColor = "147,3,46",
   segments = 10,
   html = "",
@@ -52,10 +52,10 @@ let currentTimeLeft = function () {
   let now = new Date().getTime(),
     distance = countDownDate - now;
 
-  let days = Math.floor(distance / (1000 * 60 * 60 * 24)),
-    hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-    minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
-    seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   if (distance < 0) {
     clearInterval(currentTimeLeft);
@@ -94,4 +94,8 @@ function animate(el, cssClass) {
   el.classList.remove(cssClass);
   el.offsetWidth = el.offsetWidth;
   el.classList.add(cssClass);
+}
+
+function pauseBtn() {
+  alert("Vous ne pouvez pas arrêter un compte à rebours !");
 }

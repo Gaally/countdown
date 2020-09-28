@@ -205,7 +205,7 @@ main {
   text-align: center;
   height: var(--width-segment);
   color: rgb(var(--fontColor));
-  margin: 5px;
+  margin-right: 5px;
   perspective: 1000px;
   position: relative;
   font-family: "JetBrains Mono";
@@ -338,23 +338,31 @@ main {
 }
 
 .splitflap:nth-child(2):after {
-  content: "days";
+  content: "Jours";
+  color: #f0e6ef;
+  font-size: 2rem;
 }
 
 .splitflap:nth-child(4):after {
-  content: "hours";
+  content: "Heures";
+  color: #f0e6ef;
+  font-size: 2rem;
 }
 
 .splitflap:nth-child(6):after {
-  content: "minutes";
+  content: "Minutes";
+  color: #f0e6ef;
+  font-size: 2rem;
 }
 
 .splitflap:nth-child(8):after {
-  content: "seconds";
+  content: "Secondes";
+  color: #f0e6ef;
+  font-size: 2rem;
 }
 
 .splitflap:nth-child(even) {
-  margin-left: -6px;
+  margin-left: -4px;
 }
 
 .splitflap {

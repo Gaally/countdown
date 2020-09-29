@@ -489,6 +489,8 @@ footer {
   .buttons {
     top: 70%;
   }
+  .footer-link {
+    font-size: 0.5rem;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {

@@ -423,6 +423,70 @@ footer {
   font-weight: bold;
 }
 
+@media screen and (min-width: 375px) and (max-width: 765px) {
+  .center {
+    margin-left: -10px;
+    height: 80vh;
+    width: 70vw;
+  }
+  .splitflap:nth-child(2):after {
+    font-size: 1.4rem;
+    margin-left: 60px;
+  }
+  .splitflap:nth-child(4):after {
+    font-size: 1.4rem;
+    margin-left: 60px;
+  }
+  .splitflap:nth-child(6):after {
+    font-size: 1.4rem;
+    margin-left: 60px;
+  }
+  .splitflap:nth-child(8):after {
+    font-size: 1.4rem;
+    margin-left: 60px;
+  }
+  .footer-link {
+    font-size: 0.7rem;
+  }
+  .buttons {
+    top: 60%;
+    right: 10%;
+  }
+}
+
+@media screen and (min-width: 766px) and (max-width: 979px) {
+  .center {
+    grid-template-columns: 15px 15px;
+    grid-template-rows: 3% 3% 3% 3%;
+    gap: 7% 9%;
+    height: 90vh;
+    margin-top: 15px;
+    padding-bottom: 25px;
+  }
+  .splitflap:nth-child(2):after {
+    font-size: 2rem;
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+  .splitflap:nth-child(4):after {
+    font-size: 2rem;
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+  .splitflap:nth-child(6):after {
+    font-size: 2rem;
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+  .splitflap:nth-child(8):after {
+    font-size: 2rem;
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+  .buttons {
+    top: 70%;
+  }
+}
 @media screen and (min-width: 980px) and (max-width: 1023px) {
   .center {
     grid-template-columns: 25px 25px;
@@ -456,41 +520,6 @@ footer {
     top: 90%;
   }
 }
-
-@media screen and (min-width: 768px) and (max-width: 979px) {
-  .center {
-    grid-template-columns: 15px 15px;
-    grid-template-rows: 3% 3% 3% 3%;
-    gap: 7% 9%;
-    height: 90vh;
-    margin-top: 15px;
-    padding-bottom: 25px;
-  }
-  .splitflap:nth-child(2):after {
-    font-size: 2rem;
-    margin-left: 120px;
-    margin-top: -50px;
-  }
-  .splitflap:nth-child(4):after {
-    font-size: 2rem;
-    margin-left: 120px;
-    margin-top: -50px;
-  }
-  .splitflap:nth-child(6):after {
-    font-size: 2rem;
-    margin-left: 120px;
-    margin-top: -50px;
-  }
-  .splitflap:nth-child(8):after {
-    font-size: 2rem;
-    margin-left: 120px;
-    margin-top: -50px;
-  }
-  .buttons {
-    top: 70%;
-  }
-}
-
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .center {
     grid-template-columns: 18px 18px;
@@ -524,7 +553,7 @@ footer {
     top: 75%;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) and (max-width: 1299px) {
   .center {
     grid-template-columns: 25px 25px;
     grid-template-rows: 3% 3% 3% 3%;
@@ -556,45 +585,49 @@ footer {
     top: 82%;
   }
 }
-@media screen and (min-width: 375px) and (max-width: 765px) {
+@media screen and (min-width: 1300px) {
   .center {
-    margin-left: -10px;
-    height: 80vh;
-    width: 70vw;
+    grid-template-columns: 20px 20px;
+    grid-template-rows: 4% 4% 4% 4%;
+    gap: 21% 12%;
+    margin-top: 25px;
   }
   .splitflap:nth-child(2):after {
-    font-size: 1.4rem;
-    margin-left: 60px;
+    font-size: 2.8rem;
+    margin-left: 180px;
+    margin-top: -90px;
   }
   .splitflap:nth-child(4):after {
-    font-size: 1.4rem;
-    margin-left: 60px;
+    font-size: 2.8rem;
+    margin-left: 180px;
+    margin-top: -90px;
   }
   .splitflap:nth-child(6):after {
-    font-size: 1.4rem;
-    margin-left: 60px;
+    font-size: 2.8rem;
+    margin-left: 180px;
+    margin-top: -90px;
   }
   .splitflap:nth-child(8):after {
-    font-size: 1.4rem;
-    margin-left: 60px;
-  }
-  .footer-link {
-    font-size: 0.7rem;
+    font-size: 2.8rem;
+    margin-left: 180px;
+    margin-top: -90px;
   }
   .buttons {
-    top: 60%;
-    right: 10%;
+    top: 82%;
   }
 }
-@media (orientation: landscape) and (min-width: 1000px) and (max-width: 1365px) {
+@media (orientation: landscape) and (min-width: 400px) and (max-width: 812px) {
   .center {
     grid-template-columns: 20px 20px;
     grid-template-rows: 3% 3% 3% 3%;
-    gap: 10% 12%;
+    gap: 18% 12%;
+  }
+  .buttons {
+    top: 80%;
   }
 }
 
-@media (orientation: landscape) and (min-width: 1366px) {
+@media (orientation: landscape) and (min-width: 1366px) and (max-width: 1500px) {
   .center {
     grid-template-columns: 20px 20px;
     grid-template-rows: 4% 4% 4% 4%;

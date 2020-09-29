@@ -649,18 +649,7 @@ footer {
   }
 }
 
-@media (orientation: landscape) and (min-width: 737px) and (max-width: 812px) {
-  .center {
-    grid-template-columns: 20px 20px;
-    grid-template-rows: 3% 3% 3% 3%;
-    gap: 18% 12%;
-  }
-  .buttons {
-    top: 80%;
-  }
-}
-
-@media (orientation: landscape) and (min-width: 813px) and (max-width: 1000px) {
+@media (orientation: landscape) and (min-width: 737px) {
   .center {
     grid-template-columns: 20px 20px;
     grid-template-rows: 3% 3% 3% 3%;

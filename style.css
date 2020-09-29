@@ -616,7 +616,40 @@ footer {
     top: 82%;
   }
 }
-@media (orientation: landscape) and (min-width: 400px) and (max-width: 812px) {
+
+@media (orientation: landscape) and (min-width: 400px) and (max-width: 736px) {
+  .center {
+    grid-template-columns: 20px 20px;
+    grid-template-rows: 3% 3% 3% 3%;
+    gap: 18% 10%;
+    margin-top: 15px;
+  }
+  .splitflap:nth-child(2):after {
+    font-size: 1.8rem;
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+  .splitflap:nth-child(4):after {
+    font-size: 1.8rem;
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+  .splitflap:nth-child(6):after {
+    font-size: 1.8rem;
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+  .splitflap:nth-child(8):after {
+    font-size: 1.8rem;
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+  .buttons {
+    top: 80%;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 737px) and (max-width: 812px) {
   .center {
     grid-template-columns: 20px 20px;
     grid-template-rows: 3% 3% 3% 3%;

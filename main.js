@@ -3,7 +3,7 @@
 let time,
   previousSecond,
   countDownDate =
-    new Date("March 28, 2021 20:00:00").getTime() + 1000 * 60 * 60 * 1.5,
+    new Date("March 23, 2021 20:00:00").getTime() + 1000 * 60 * 60 * 1.5,
   reverseFlapDirection = true,
   bgColor = "205,213,216",
   fontColor = "147,3,46",

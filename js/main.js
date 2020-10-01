@@ -380,14 +380,27 @@ let cd = new Countdown({
 });
 cd.start();
 
-let nClick = 0;
+function pauseBtn() {
+  cd.stop();
+  document.getElementById("stop").style.visibility = "hidden";
+  document.getElementById("play").style.visibility = "visible";
+}
 
-function pauseBtn(nClick) {
-  if (nClick % 2 == 0) {
-    nClick++;
-    cd.stop();
-  } else {
-    document.getElementsByClassName(".stop").innerHTML = "Reprendre";
-    cd.start();
-  }
+function playBtn() {
+  document.getElementById("play").style.visibility = "hidden";
+  document.getElementById("stop").style.visibility = "visible";
+  let cd = new Countdown({
+    cont: document.querySelector(".container"),
+    endDate: "March 23, 2021 17:30:00",
+    outputTranslation: {
+      day: "Jours",
+      hour: "Heures",
+      minute: "Minutes",
+      second: "Secondes",
+    },
+    endCallback: null,
+    outputFormat: "day|hour|minute|second",
+  });
+
+  cd.start();
 }

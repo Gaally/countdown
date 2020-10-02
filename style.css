@@ -556,6 +556,11 @@ footer {
     height: 1rem;
     font-size: 0.6rem;
   }
+  #play {
+    width: 2rem;
+    height: 1rem;
+    font-size: 0.6rem;
+  }
   #back {
     width: 2rem;
     height: 1rem;
@@ -592,6 +597,11 @@ footer {
     font-size: 0.7rem;
   }
   #stop {
+    width: 2.5rem;
+    height: 1.2rem;
+    font-size: 0.7rem;
+  }
+  #play {
     width: 2.5rem;
     height: 1.2rem;
     font-size: 0.7rem;
@@ -635,6 +645,11 @@ footer {
     height: 2.3rem;
     font-size: 1.3rem;
   }
+  #play {
+    width: 4rem;
+    height: 2.3rem;
+    font-size: 1.3rem;
+  }
   #back {
     width: 4rem;
     height: 2.3rem;
@@ -670,6 +685,11 @@ footer {
     font-size: 1.5rem;
   }
   #stop {
+    width: 4.3rem;
+    height: 2.8rem;
+    font-size: 1.5rem;
+  }
+  #play {
     width: 4.3rem;
     height: 2.8rem;
     font-size: 1.5rem;

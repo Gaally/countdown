@@ -389,7 +389,7 @@ function pauseBtn() {
 function playBtn() {
   document.getElementById("play").style.visibility = "hidden";
   document.getElementById("stop").style.visibility = "visible";
-  let cd = new Countdown({
+  cd = new Countdown({
     cont: document.querySelector(".container"),
     endDate: "March 23, 2021 17:30:00",
     outputTranslation: {
